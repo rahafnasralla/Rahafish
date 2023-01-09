@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .color {
+    background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5);
+  }
+
+  .wrapper {
+    width: 95%;
+    padding: 5%;
+    height: 10px;
+    margin: 65px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22); 
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 700px;
+    height: 60px;
+    background: rgba(39, 151, 176) url(sea.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22); 
+     
+  }
+
+  .search-bar input {
+
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size :20px;
+    color: #25216b;
+
+  }
+
+  ::placeholder {
+    color: #2c4969;
+  }
+
+  .search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: #58629b;
+    cursor: pointer;
+
+}
+
+  .search-bar button img {
+        width: 25px;
+
+  }
+
+  .card {
+    background: rgba(255,255,255,0.2);
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    max-width: 18em;
+    height: 21.5em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 7%;
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.4s;
+    text-align: center;
+  }
+
+  .card h5 {
+    font-weight: bold;
+    color: #202439;
+  }
+
+  .card h6 {
+    color: #2c4969;
+  }
+
+  .card:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px,-8px);
+  }
+
+  .card img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+  }
+
+
+
+  .body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #7dbfd4,#6f96b7);
+  }
+  
+  .notfound{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #f6f2f2
+  }
+  
+  .notfound h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(bg.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  
+  .notfound a{
+    text-decoration: none;
+    background: #3e5571aa;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  
+  .notfound a:hover{
+    background: #e55039;
+  }
+
+  .f{
+    font-size : 20px
+  }
+
+  .ff {
+    font-size : 35px;
+    font-weight: bold;
+  }
+
+   li a:hover {
+    color :#2b304e;
+    font-size: 25px;
+  }
+
+  .active {
+    color :#2b304e;
+    font-weight: bold;
+  }
+
+
+  #banner {
+
+      position: relative;
+      top: 200px;
+
+  }
+
+  .wh {
+    height: 100%;
+    width: 100%;
+  }
+
+  .image-fluid {
+    width : 900px;
+    height : 500px
+  }
+
+  .bottom-img {
+
+    width: 100px;
+  }
+
+  .b {
+    font-weight : bold;
+  }
+
+  .i {
+    font-style: italic;
+  }
+
+  .contact {
+
+    border: 0;
+    background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5);
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    padding : 14px 40px;
+    width: 200px;
+    outline: none;
+    color: rgb(247, 241, 241);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-size :15px;
+    font-weight: bold;
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+
+
+  

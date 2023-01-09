@@ -1,0 +1,78 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    width : 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .glass {
+        min-height: 50vh;
+        width: 100%;
+        background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+        border-radius: 2rem;
+        z-index: 3;
+        backdrop-filter: blur(3rem);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .glass  input[type ="text"], input[type ="password"] {
+        border: 0;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: none;
+        padding : 14px 10px;
+        width: 300px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+        
+    }
+
+    .glass  input[type ="text"]:focus, input[type ="password"]:focus {
+        width: 380px;
+        border-color: #1d3b58 ;
+        box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .glass button {
+
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: none;
+        padding : 14px 40px;
+        width: 200px;
+        outline: none;
+        color: rgb(73, 70, 70);
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+        box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+    .glass button:hover {
+        background: #1d3b58;
+        color: rgb(255, 255, 255);
+    }
+
+}
+
+
+
+
+
