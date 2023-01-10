@@ -1,6 +1,8 @@
 import { useLocation } from "react-router-dom";
 import { useEffect,useState } from "react";
 import { navStruct } from "../Utils/Navbarutils";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFish } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
 
   const location = useLocation();
@@ -27,7 +29,7 @@ export default function Navbar() {
         <div>
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 ">
       <div className="container">
-        <a className="navbar-brand ff" href="/">Rahafish</a>
+        <a className="navbar-brand ff" href="/"><FontAwesomeIcon icon={faFish} />Rahafish</a>
         <button
           className="navbar-toggler"
           type="button"
