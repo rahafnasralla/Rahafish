@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: none;
     outline: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   .color {
     background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5);
@@ -116,7 +116,7 @@
     padding: 0;
     font-family: "montserrat",sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top, #7dbfd4,#6f96b7);
+    background : linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5)
   }
   
   .notfound{
@@ -159,7 +159,7 @@
   }
 
   .ff {
-    font-size : 35px;
+    font-size : 45px;
     font-weight: bold;
   }
 
