@@ -1,4 +1,26 @@
+import { useLocation } from "react-router-dom";
+import { useEffect,useState } from "react";
+import { navStruct } from "../Utils/Navbarutils";
 export default function Navbar() {
+
+  const location = useLocation();
+  const [navStructState, setNavStructState] = useState(navStruct);
+
+  useEffect(() => {
+    const _navStruct = navStructState.map((item) => {
+        if (item.path === location.pathname) {
+            item.isActive = true;
+        } else {
+            item.isActive = false;
+        }
+
+        return item;
+    })
+
+    setNavStructState(_navStruct);
+
+}, [location])
+
 
     return (
 
@@ -22,13 +44,13 @@ export default function Navbar() {
           <div className="mx-auto"></div>
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link text-white f mx-3 active" href="/">Home</a>
+              <a id="home" className={`nav-link text-white f mx-3  ${navStructState[0].isActive ? "active" : ""}`} href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white f mx-3" href="/fish">Fish</a>
+              <a id="fish" className={`nav-link text-white f mx-3  ${navStructState[1].isActive ? "active" : ""}`} href="/fish">Fish</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white f mx-3" href="/login">Login</a>
+              <a id="login" className={`nav-link text-white f mx-3 ${navStructState[2].isActive ? "active" : ""}`} href="/login">Login</a>
             </li>
           </ul>
         </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 export default function CardDetails({ fish }) {
 
-    console.log(fish)
 
     return (
         <div className='details'>

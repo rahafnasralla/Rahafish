@@ -35,7 +35,7 @@ export default function Layout() {
 
     return (
             <GlobalContext.Provider value={{showModal,showCard}}>
-            <div className="color w-100p vh-100p d-flex justify-content-center align-items-center ">
+            <div className="color wh d-flex justify-content-center align-items-center ">
                 <Contact/>
                 <Card
                     title={modalData?.title}

@@ -10,6 +10,11 @@
     background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5);
   }
 
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
   .wrapper {
     width: 95%;
     padding: 5%;
@@ -66,7 +71,7 @@
 
 }
 
-  .search-bar button img {
+  .search-bar a img {
         width: 25px;
 
   }

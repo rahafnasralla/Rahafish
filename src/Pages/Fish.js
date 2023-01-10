@@ -13,10 +13,7 @@ export default function Fish() {
         });
     }
     
-    const [fish, setFish] = useState([])
-
-
-    
+    const [fish, setFish] = useState([])    
     const url = 'https://www.fishwatch.gov/api/species'
 
     useEffect(() => {
@@ -28,8 +25,6 @@ export default function Fish() {
         resp = await FetchData(url, 'GET');
         if (resp.status === 200) {
                 setFish(resp.data)
-                console.log(resp.data)
-                console.log(fish)
         } else {
             console.warn("sorry this api failed");
         }
