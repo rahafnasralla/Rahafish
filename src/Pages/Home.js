@@ -16,10 +16,10 @@ export default function Home() {
                 <div className="row">
                     <div className="col-md-4">
                             <h1 className="b">A website that cares about you and your fish facsination</h1>
-                            <p className="i">
                             <pre>
-
+                                
                             </pre>
+                            <p className="i">
                             Lorem ipsum dolor sit amet,
                              consectetur adipiscing elit,
                               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
