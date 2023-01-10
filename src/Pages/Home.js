@@ -1,4 +1,12 @@
+import { GlobalContext } from "../Utils/Context";
+import { useContext } from "react";
 export default function Home() {
+
+    const context = useContext(GlobalContext);
+    function onButtonClicked() {
+        context.showModal();
+    }
+
     return (
         <>
 
@@ -19,7 +27,7 @@ export default function Home() {
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <button className="contact">Contact US</button>
+                            <button className="contact" onClick={onButtonClicked}>Contact US</button>
                     </div> 
                     <div className="col-md-4">
                     <img src="./images/fish.png" alt="" className="image-fluid"/>
