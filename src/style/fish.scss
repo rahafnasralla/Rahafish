@@ -223,10 +223,7 @@
     box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
   }
 
-  .modal-header {
-    background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b5b0b5);
-    color: #fff;
-}
+
 
 .required:after {
     content: "*";
@@ -235,13 +232,29 @@
 
 .details {
   .img-wrapper {
-      height: 350px
+      height: 300px
   }
 
   .details-img {
       width: 100%;
       height: 100%;
+      border-radius: 20px;
   }
+}
+
+.details-desc {
+  margin-top: 10px;
+}
+
+.details-desc h4 {
+  font-size: 20px;
+  color: #2a2a2b;
+  font-weight: 600;
+}
+.details-desc  {
+  font-size: 16px;
+  color: #454546;
+  font-weight: 300;
 }
 
 

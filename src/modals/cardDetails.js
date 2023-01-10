@@ -25,7 +25,7 @@ export default function CardDetails({ fish }) {
 
             <div className="details-desc mx-3">
                 <h4>fishing region</h4>
-                {fish?.["NOAA Fisheries Region"]}
+                <p>{fish?.["NOAA Fisheries Region"]}</p>
             </div>
         </div>
     )

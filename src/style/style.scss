@@ -72,6 +72,36 @@ main {
 
 }
 
+.modal {
+    backdrop-filter: blur(0.15rem);
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.modal-content {
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+    box-shadow: 0 14px 28px rgba(1, 2, 68, 0.08), 0 10px 10px rgba(0,0,0,0.22);
+    backdrop-filter: blur(3rem);
+    border-radius: 20px;
+}
+
+.modal-header {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    background: linear-gradient(to right top, #e0c9e1,#8bc2f0,#a5aadb,#b876b8,0.4);
+}
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    color :#2a2a2b;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+
 
 
 
